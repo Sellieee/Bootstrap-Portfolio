@@ -13,38 +13,49 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <header>
-
-         <div class="navbar">
-           <a id="logo" class="nav-link disabled">Selina Van</a>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="./index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            href="./contact.html
-            "
-            >Contact</a
-          >
-        </li>
-      </ul>
-      
-     </div>
-    </header>
+      <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" id="logo" href="#">Selina Van</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+         </header>
+    <div class="wrapper">
     <div class="container">
+      <div class="row">
       <div class="col-sm-12" id="clearfix">
         <h1>About Me</h1>
+       
         <hr />
-        <img src="./images/Profile.png" width="200" id="prof-image">
+      </div>
+        <div class="row">
+          <div class="col-sm-2">
+        <img src="./images/Profile.png" id="prof-image" height="150px"
+        >
+          </div>
+          <div class="col-sm-10  ">
         <p>My name is Selina. I'm currently a radiographer so I'm new to the coding world, but I am excited about what I will learn and achieve. In the future, I hope to either merge the two skills or discover an entirely different avenue.</p>
         <p>I enjoy playing spots such as basketball and tennis. There are many things I do in my downtime, it varies from knitting/embroidery to watching TV shows/movies.</p>
         <p>Some of my other hobbies include roadtrips or travelling. I am also an amateur photographer - I mostly take photos of the scenery or landscape.</p>
       </div>
+      </div>
+      </div>
+    </div>
     </div>
     <footer>
         <span>&#169</span>2019 Selina Van
